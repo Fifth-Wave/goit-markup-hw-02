@@ -1,0 +1,156 @@
+body {
+  font-family: Roboto;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header's styles */
+
+.header-content {
+  width: 1600px;
+  height: 80px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  width: 145px;
+  height: 31;
+  text-decoration: none;
+  margin-left: 215px;
+  margin-top: 24px;
+  display: inline-block;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.nav-style a {
+  display: inline;
+}
+
+.nav-list {
+  margin-left: 453px;
+}
+
+.nav-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #2196f3;
+}
+
+.contact-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2196f3;
+}
+
+/* hero section */
+
+.hero-section {
+  background: #2f303a;
+  color: #ffffff;
+  width: 1600px;
+  height: 600px;
+}
+
+.hero-section-heading {
+  width: 696px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  background: #2196f3;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* section our benefits */
+
+.our-benefits-section {
+}
+
+/* footer's style */
+
+.footer-style {
+  background: #2f303a;
+  color: #ffffff;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.address-style {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-link-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
