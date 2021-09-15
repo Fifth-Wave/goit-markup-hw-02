@@ -30,6 +30,7 @@
 body {
   font-family: "Roboto", "Verdana", "Tahoma";
   background-color: var(--bg-color-frst);
+  letter-spacing: 00.03em;
 }
 
 .list {
@@ -51,6 +52,8 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--logo-color-scnd);
   width: 145px;
   height: 31px;
@@ -67,7 +70,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .nav-list .item:hover,
@@ -80,7 +84,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--text-color-secondary);
   text-decoration: none;
 }
@@ -94,14 +99,14 @@ body {
 
 .hero-section {
   background: var(--bg-hero-footer-color);
-  color: #ffffff;
+  color: var(--text-color-third);
 }
 
 .hero-section-heading {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -112,6 +117,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0.06em;
   background: var(--accent-color);
   color: #ffffff;
   width: 200px;
@@ -145,38 +151,34 @@ body {
 
 /* our work section*/
 
-.our-work-section .title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  color: var(--text-color-basic);
-}
-
-/* our team section */
-
+.our-work-section .title,
 .our-team-section .title {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  text-align: center;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--text-color-basic);
+  text-align: center;
+}
+
+/* our team section */
+.our-team-section {
+  background-color: var(--bg-color-secnd);
 }
 
 .our-team-section .headings {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color-basic);
 }
 
 .our-team-section .members {
-  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-color-secondary);
 }
