@@ -15,27 +15,30 @@
 */
 :root {
   --text-color-basic: #212121;
-  --bg-hero-footer-color: #2F303A;
-  --bg-color-frst: #FFFFFF;
-  --bg-color-secnd: #F5F4FA;
+  --bg-hero-footer-color: #2f303a;
+  --bg-color-frst: #ffffff;
+  --bg-color-secnd: #f5f4fa;
   --text-color-secondary: #757575;
   --text-color-third: #ffffff;
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
 
-  --logo-color-frst: #2196F3;
+  --logo-color-frst: #2196f3;
   --logo-color-scnd: #000;
   --logo-color-thrd: #fff;
 }
 
 body {
-  font-family: 'Roboto', 'Verdana', 'Tahoma';
+  font-family: "Roboto", "Verdana", "Tahoma";
   background-color: var(--bg-color-frst);
 }
 
 .list {
   list-style: none;
 }
-
+/* 
+.line {
+  display: inline-block;
+} */
 /* header's styles */
 
 /* .header-content {
@@ -102,7 +105,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  }
+}
 
 .hero-button {
   font-style: normal;
@@ -129,7 +132,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--text-color-basic)
+  color: var(--text-color-basic);
 }
 
 .features .items {
@@ -147,7 +150,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.03em;
-  color: var(--text-color-basic)
+  color: var(--text-color-basic);
 }
 
 /* our team section */
@@ -216,13 +219,14 @@ body {
   color: var(--accent-color);
 }
 
-
 /* portfolio styles */
 
 .filter-btn {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  line-height: 162%;
   text-align: center;
   letter-spacing: 0.03em;
   background: var(--bg-color-secnd);
@@ -246,7 +250,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--text-color-basic)
+  color: var(--text-color-basic);
 }
 .projects .items {
   font-style: normal;
